@@ -624,8 +624,8 @@
 //    |           |
 //    O-- FRONT --+
 //  (0,0)
-#define X_PROBE_OFFSET_FROM_EXTRUDER -20 // KosselPro actual: -22.919
-#define Y_PROBE_OFFSET_FROM_EXTRUDER -6.304  // KosselPro actual: -6.304
+#define X_PROBE_OFFSET_FROM_EXTRUDER 25 // KosselPro actual: -22.919
+#define Y_PROBE_OFFSET_FROM_EXTRUDER -23.600  // KosselPro actual: -6.304
 // Kossel Pro note: The correct value is likely -17.45 but I'd rather err on the side of
 // not giving someone a head crash. Use something like G29 Z-0.2 to adjust as needed.
 #define Z_PROBE_OFFSET_FROM_EXTRUDER -2.54// Increase this if the first layer is too thin (remember: it's a negative number so increase means closer to zero).
